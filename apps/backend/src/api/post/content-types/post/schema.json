@@ -1,0 +1,26 @@
+{
+	"attributes": {
+		"title": {
+			"type": "string"
+		},
+		"ownerId": {
+			"type": "string",
+			"unique": false
+		},
+		"public": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"collectionName": "posts",
+	"info": {
+		"singularName": "post",
+		"pluralName": "posts",
+		"displayName": "Post"
+	},
+	"kind": "collectionType",
+	"options": {
+		"draftAndPublish": true
+	},
+	"pluginOptions": {}
+}
