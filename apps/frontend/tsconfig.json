@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"jsx": "preserve",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"types": ["node"]
+	},
+	"exclude": ["node_modules"],
+	"extends": "@repo/typescript-config/nextjs.json",
+	"include": ["next-env.d.ts", "next.config.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
+}
